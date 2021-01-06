@@ -1,13 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { FaBars } from 'react-icons/fa'
+import { Nav,NavbarContainer,NavLogo,MobileIcons,NavMenu,NavItem,NavLinks } from './NavBarElements'
+
 
 const Navbar = () => {
     return (
         <>
         <Nav>
             <NavbarContainer>
-                <NavLogo>
-                    LOGO
-                </NavLogo>
+                <NavLogo to="/">LOGO</NavLogo>
+                <MobileIcons>
+                    <FaBars />
+                </MobileIcons>
+                <NavMenu>
+                    <NavItem>
+                        <NavLinks to="about">About</NavLinks>
+                    </NavItem>
+                </NavMenu>
             </NavbarContainer>
         </Nav>
         </>
