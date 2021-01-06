@@ -15,3 +15,39 @@ export const homeObjOne = {
     darkText: false,
 
 }
+
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Stay connected',
+    headline: ' Stay Socially Connected Anytime and Anywhere',
+    description: 'Our need for connecting with each other never stops. Connect your users - doctors, gamers, shoppers, or lovers - wherever they are.',
+    buttonLabel: 'Learn More',
+    imgStart: false,
+    img: "/images/svg-2.svg",
+    alt: 'Message',
+    dark: false,
+    primary: false,
+    darkText: true,
+
+}
+
+export const homeObjThree = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Calls Experience',
+    headline: 'Immersive voice and video experiences',
+    description: 'From healthcare to dating to customer service, connecting users with our voice API and video API has never been easier.',
+    buttonLabel: 'Get started',
+    imgStart: false,
+    img: "/images/svg-3.svg",
+    alt: 'Message',
+    dark : true,
+    primary: true,
+    darkText:false,
+
+}
