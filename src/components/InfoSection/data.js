@@ -36,9 +36,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'signup',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Calls Experience',
     headline: 'Immersive voice and video experiences',
     description: 'From healthcare to dating to customer service, connecting users with our voice API and video API has never been easier.',
@@ -46,8 +46,8 @@ export const homeObjThree = {
     imgStart: false,
     img: "/images/svg-3.svg",
     alt: 'Experience',
-    dark : true,
-    primary: true,
-    darkText:false,
+    dark : false,
+    primary: false,
+    darkText:true,
 
 }
