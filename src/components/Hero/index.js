@@ -21,7 +21,8 @@ const Hero = () => {
                 <HeroH1>Welcome to a new era of messaging!</HeroH1>
                 <HeroP>Sign Up for a new account today!</HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true"
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
