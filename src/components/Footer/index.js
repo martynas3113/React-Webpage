@@ -1,5 +1,6 @@
 import React from 'react';
-import{ FooterContainer, FooterWrap, FooterLinksContainer,FooterLinksWrapper,FooterLinkItems, FooterLinkTitle, FooterLink } from './footerElements';
+import {FaFacebook, FaInstagram,FaLinkedin,FaGithub} from 'react-icons/fa'
+import{ FooterContainer, FooterWrap, FooterLinksContainer,FooterLinksWrapper,FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,SocialMediaWrap,SocialLogo,WebsiteRights,SocialIcons,SocialIconLink } from './footerElements';
 
 const Footer = () => {
     return (
@@ -39,6 +40,26 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>LOGO</SocialLogo>
+                        <WebsiteRights>Martynas.P © {new Date().getFullYear()}</WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href='//www.facebook.com/martynas.pazusis/' target='_blank' aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target='_blank' aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href='//www.linkedin.com/in/martynas-pa%C5%BEusis/' target='_blank' aria-label="Linkedin">
+                                <FaLinkedin />
+                            </SocialIconLink>
+                            <SocialIconLink href='//www.github.com/martynas3113' target='_blank' aria-label="Github">
+                                <FaGithub />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
     )
