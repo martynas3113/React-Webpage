@@ -31,11 +31,11 @@ const Footer = () => {
                                 <FooterLink to="/signin">Influencer</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Social Media </FooterLinkTitle>
-                                <FooterLink to="/signin">Instagram</FooterLink>
-                                <FooterLink to="/signin">Facebook</FooterLink>
-                                <FooterLink to="/signin">Youtube</FooterLink>
-                                <FooterLink to="/signin">Twitter</FooterLink>
+                            <FooterLinkTitle> Solutions </FooterLinkTitle>
+                                <FooterLink to="/signin">Marketplaces</FooterLink>
+                                <FooterLink to="/signin">On-demand</FooterLink>
+                                <FooterLink to="/signin">Digital Health</FooterLink>
+                                <FooterLink to="/signin">Live Straming</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
