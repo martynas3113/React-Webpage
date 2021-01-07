@@ -1,5 +1,6 @@
 import React from 'react';
-import{ FooterContainer, FooterWrap, FooterLinksContainer,FooterLinksWrapper,FooterLinkItems, FooterLinkTitle, FooterLink } from './footerElements';
+import {FaFacebook, FaInstagram,FaLinkedin,FaGithub} from 'react-icons/fa'
+import{ FooterContainer, FooterWrap, FooterLinksContainer,FooterLinksWrapper,FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia,SocialMediaWrap,SocialLogo,WebsiteRights,SocialIcons,SocialIconLink } from './footerElements';
 
 const Footer = () => {
     return (
@@ -42,15 +43,15 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>LOGO</SocialLogo>
-                        <WebsiteRights>LOGO © {new Date().getFullYear()}</WebsiteRights>
+                        <WebsiteRights>Martynas.P © {new Date().getFullYear()}</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='//https://www.facebook.com/martynas.pazusis//' target='_blank' aria-label="Facebook">
+                            <SocialIconLink href='//www.facebook.com/martynas.pazusis/' target='_blank' aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
                             <SocialIconLink href='/' target='_blank' aria-label="Instagram">
-                                <FaInstargram />
+                                <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href='//https://www.linkedin.com/in/martynas-pa%C5%BEusis-4230ba1bb/' target='_blank' aria-label="Linkedin">
+                            <SocialIconLink href='//www.linkedin.com/in/martynas-pa%C5%BEusis/' target='_blank' aria-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLink>
                             <SocialIconLink href='//www.github.com/martynas3113' target='_blank' aria-label="Github">
