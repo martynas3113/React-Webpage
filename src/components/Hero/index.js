@@ -18,7 +18,7 @@ const Hero = () => {
                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />    
             </HeroBack>
             <HeroContent>
-                <HeroH1>Virtual Data</HeroH1>
+                <HeroH1>Welcome to a new era of messaging!</HeroH1>
                 <HeroP>Sign Up for a new account today!</HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
