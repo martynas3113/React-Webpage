@@ -1,4 +1,4 @@
-# Getting Started React
+# Getting Started With React
 
 ### First project created with React.
 
