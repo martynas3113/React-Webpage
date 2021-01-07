@@ -39,6 +39,26 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialMedia>
+                    <SocialMediaWrap>
+                        <SocialLogo to='/'>LOGO</SocialLogo>
+                        <WebsiteRights>LOGO © {new Date().getFullYear()}</WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink href='//https://www.facebook.com/martynas.pazusis//' target='_blank' aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
+                            <SocialIconLink href='/' target='_blank' aria-label="Instagram">
+                                <FaInstargram />
+                            </SocialIconLink>
+                            <SocialIconLink href='//https://www.linkedin.com/in/martynas-pa%C5%BEusis-4230ba1bb/' target='_blank' aria-label="Linkedin">
+                                <FaLinkedin />
+                            </SocialIconLink>
+                            <SocialIconLink href='//www.github.com/martynas3113' target='_blank' aria-label="Github">
+                                <FaGithub />
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialMediaWrap>
+                </SocialMedia>
             </FooterWrap>
         </FooterContainer>
     )
