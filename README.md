@@ -8,6 +8,7 @@ Site published at: https://first-react-website55.netlify.app/
 
 Features:
 - Separate Sign in page
+- Fully responsive design
 - React icons
 - React router
 - React scroll
